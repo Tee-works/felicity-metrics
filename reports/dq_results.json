@@ -1,0 +1,282 @@
+[
+  {
+    "check": "uniqueness",
+    "layer": "raw",
+    "target": "conversations(conversation_id)",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "keys unique",
+    "extra": {}
+  },
+  {
+    "check": "uniqueness",
+    "layer": "staging",
+    "target": "conversations(conversation_id)",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "keys unique",
+    "extra": {}
+  },
+  {
+    "check": "uniqueness",
+    "layer": "raw",
+    "target": "messages(message_id)",
+    "status": "fail",
+    "failing_rows": 191,
+    "detail": "191 extra rows share a key",
+    "extra": {}
+  },
+  {
+    "check": "uniqueness",
+    "layer": "staging",
+    "target": "messages(message_id)",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "keys unique",
+    "extra": {}
+  },
+  {
+    "check": "uniqueness",
+    "layer": "raw",
+    "target": "crm_leads(crm_system, conversation_id)",
+    "status": "fail",
+    "failing_rows": 374,
+    "detail": "374 extra rows share a key",
+    "extra": {}
+  },
+  {
+    "check": "uniqueness",
+    "layer": "staging",
+    "target": "crm_leads(crm_system, conversation_id)",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "keys unique",
+    "extra": {}
+  },
+  {
+    "check": "freshness",
+    "layer": "raw",
+    "target": "felicity_platform",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "last load 2026-11-15 23:51 UTC, 6.1h before as-of (SLA 26h)",
+    "extra": {
+      "lag_hours": 6.1
+    }
+  },
+  {
+    "check": "freshness",
+    "layer": "raw",
+    "target": "crm_alto",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "last load 2026-11-16 00:30 UTC, 5.5h before as-of (SLA 26h)",
+    "extra": {
+      "lag_hours": 5.5
+    }
+  },
+  {
+    "check": "freshness",
+    "layer": "raw",
+    "target": "crm_loop",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "last load 2026-11-16 00:09 UTC, 5.8h before as-of (SLA 26h)",
+    "extra": {
+      "lag_hours": 5.8
+    }
+  },
+  {
+    "check": "freshness",
+    "layer": "raw",
+    "target": "crm_mri",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "last load 2026-11-16 03:29 UTC, 2.5h before as-of (SLA 26h)",
+    "extra": {
+      "lag_hours": 2.5
+    }
+  },
+  {
+    "check": "freshness",
+    "layer": "raw",
+    "target": "crm_street",
+    "status": "warn",
+    "failing_rows": 1,
+    "detail": "last load 2026-11-12 12:58 UTC, 89.0h before as-of (SLA 26h)",
+    "extra": {
+      "lag_hours": 89.0
+    }
+  },
+  {
+    "check": "referential_integrity",
+    "layer": "raw",
+    "target": "messages.conversation_id -> conversations",
+    "status": "fail",
+    "failing_rows": 336,
+    "detail": "336 orphan rows",
+    "extra": {}
+  },
+  {
+    "check": "referential_integrity",
+    "layer": "staging",
+    "target": "messages.conversation_id -> conversations",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "all rows have a parent",
+    "extra": {}
+  },
+  {
+    "check": "referential_integrity",
+    "layer": "raw",
+    "target": "outcomes.conversation_id -> conversations",
+    "status": "fail",
+    "failing_rows": 88,
+    "detail": "88 orphan rows",
+    "extra": {}
+  },
+  {
+    "check": "referential_integrity",
+    "layer": "staging",
+    "target": "outcomes.conversation_id -> conversations",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "all rows have a parent",
+    "extra": {}
+  },
+  {
+    "check": "referential_integrity",
+    "layer": "raw",
+    "target": "crm_leads.conversation_id -> conversations",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "all rows have a parent",
+    "extra": {}
+  },
+  {
+    "check": "referential_integrity",
+    "layer": "staging",
+    "target": "crm_leads.conversation_id -> conversations",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "all rows have a parent",
+    "extra": {}
+  },
+  {
+    "check": "referential_integrity",
+    "layer": "raw",
+    "target": "conversations.branch_id -> branches",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "all rows have a parent",
+    "extra": {}
+  },
+  {
+    "check": "referential_integrity",
+    "layer": "staging",
+    "target": "conversations.branch_id -> branches",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "all rows have a parent",
+    "extra": {}
+  },
+  {
+    "check": "timezone_sanity",
+    "layer": "raw",
+    "target": "conversations.started_at vs first message",
+    "status": "fail",
+    "failing_rows": 828,
+    "detail": "sms_gateway_v1: 828 rows off by +1h",
+    "extra": {
+      "by_source": [
+        {
+          "source_system": "sms_gateway_v1",
+          "offset_hours": 1.0,
+          "n": 828
+        }
+      ],
+      "mismatches_inside_bst": 828
+    }
+  },
+  {
+    "check": "timezone_sanity",
+    "layer": "staging",
+    "target": "conversations.started_at_utc",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "828 rows corrected by -1h; 68 of them would have had the wrong in-hours/out-of-hours flag; 0 still mismatched; 0 in the future",
+    "extra": {
+      "corrected": 828,
+      "ooh_flag_flips_prevented": 68
+    }
+  },
+  {
+    "check": "pii_scan",
+    "layer": "raw",
+    "target": "messages.body",
+    "status": "warn",
+    "failing_rows": 12428,
+    "detail": "6930 email, 11064 uk_phone, 4188 uk_postcode",
+    "extra": {
+      "matches": {
+        "email": 6930,
+        "uk_postcode": 4188,
+        "uk_phone": 11064
+      }
+    }
+  },
+  {
+    "check": "pii_scan",
+    "layer": "raw",
+    "target": "crm_leads.notes",
+    "status": "warn",
+    "failing_rows": 3196,
+    "detail": "1605 email, 1591 uk_phone",
+    "extra": {
+      "matches": {
+        "email": 1605,
+        "uk_phone": 1591
+      }
+    }
+  },
+  {
+    "check": "pii_scan",
+    "layer": "staging",
+    "target": "messages.body_redacted",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "no PII patterns found",
+    "extra": {
+      "matches": {}
+    }
+  },
+  {
+    "check": "pii_scan",
+    "layer": "staging",
+    "target": "crm_leads.notes_redacted",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "no PII patterns found",
+    "extra": {
+      "matches": {}
+    }
+  },
+  {
+    "check": "pii_scan",
+    "layer": "staging",
+    "target": "crm_leads contact columns",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "email and phone replaced by hashed contact_key",
+    "extra": {}
+  },
+  {
+    "check": "accepted_values",
+    "layer": "staging",
+    "target": "conversations.channel",
+    "status": "pass",
+    "failing_rows": 0,
+    "detail": "channel in call/email/sms/whatsapp/portal",
+    "extra": {}
+  }
+]

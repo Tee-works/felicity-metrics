@@ -1,0 +1,145 @@
+agency_id,agency_name,report_month,metric,numerator,denominator,value,is_partial_month
+AG01,Harbour & Finch Lettings,2026-08-01,conversations_handled,809,809,809.0,True
+AG01,Harbour & Finch Lettings,2026-08-01,enquiry_to_viewing,141,517,0.2727,True
+AG01,Harbour & Finch Lettings,2026-08-01,handoff_rate,77,809,0.0952,True
+AG01,Harbour & Finch Lettings,2026-08-01,leads_captured,560,585,0.9573,True
+AG01,Harbour & Finch Lettings,2026-08-01,median_first_response_seconds,,794,16.0,True
+AG01,Harbour & Finch Lettings,2026-08-01,out_of_hours_share,485,809,0.5995,True
+AG01,Harbour & Finch Lettings,2026-09-01,conversations_handled,876,876,876.0,False
+AG01,Harbour & Finch Lettings,2026-09-01,enquiry_to_viewing,147,533,0.2758,False
+AG01,Harbour & Finch Lettings,2026-09-01,handoff_rate,121,876,0.1381,False
+AG01,Harbour & Finch Lettings,2026-09-01,leads_captured,592,616,0.961,False
+AG01,Harbour & Finch Lettings,2026-09-01,median_first_response_seconds,,868,14.0,False
+AG01,Harbour & Finch Lettings,2026-09-01,out_of_hours_share,479,876,0.5468,False
+AG01,Harbour & Finch Lettings,2026-10-01,conversations_handled,953,953,953.0,False
+AG01,Harbour & Finch Lettings,2026-10-01,enquiry_to_viewing,152,567,0.2681,False
+AG01,Harbour & Finch Lettings,2026-10-01,handoff_rate,107,953,0.1123,False
+AG01,Harbour & Finch Lettings,2026-10-01,leads_captured,627,657,0.9543,False
+AG01,Harbour & Finch Lettings,2026-10-01,median_first_response_seconds,,941,11.0,False
+AG01,Harbour & Finch Lettings,2026-10-01,out_of_hours_share,509,953,0.5341,False
+AG01,Harbour & Finch Lettings,2026-11-01,conversations_handled,423,423,423.0,True
+AG01,Harbour & Finch Lettings,2026-11-01,enquiry_to_viewing,69,264,0.2614,True
+AG01,Harbour & Finch Lettings,2026-11-01,handoff_rate,43,423,0.1017,True
+AG01,Harbour & Finch Lettings,2026-11-01,leads_captured,288,300,0.96,True
+AG01,Harbour & Finch Lettings,2026-11-01,median_first_response_seconds,,416,10.0,True
+AG01,Harbour & Finch Lettings,2026-11-01,out_of_hours_share,259,423,0.6123,True
+AG02,Meadowgate Estates,2026-08-01,conversations_handled,543,543,543.0,True
+AG02,Meadowgate Estates,2026-08-01,enquiry_to_viewing,98,314,0.3121,True
+AG02,Meadowgate Estates,2026-08-01,handoff_rate,58,543,0.1068,True
+AG02,Meadowgate Estates,2026-08-01,leads_captured,364,374,0.9733,True
+AG02,Meadowgate Estates,2026-08-01,median_first_response_seconds,,535,13.0,True
+AG02,Meadowgate Estates,2026-08-01,out_of_hours_share,326,543,0.6004,True
+AG02,Meadowgate Estates,2026-09-01,conversations_handled,535,535,535.0,False
+AG02,Meadowgate Estates,2026-09-01,enquiry_to_viewing,86,328,0.2622,False
+AG02,Meadowgate Estates,2026-09-01,handoff_rate,62,535,0.1159,False
+AG02,Meadowgate Estates,2026-09-01,leads_captured,369,377,0.9788,False
+AG02,Meadowgate Estates,2026-09-01,median_first_response_seconds,,529,14.0,False
+AG02,Meadowgate Estates,2026-09-01,out_of_hours_share,306,535,0.572,False
+AG02,Meadowgate Estates,2026-10-01,conversations_handled,517,517,517.0,False
+AG02,Meadowgate Estates,2026-10-01,enquiry_to_viewing,102,317,0.3218,False
+AG02,Meadowgate Estates,2026-10-01,handoff_rate,45,517,0.087,False
+AG02,Meadowgate Estates,2026-10-01,leads_captured,355,367,0.9673,False
+AG02,Meadowgate Estates,2026-10-01,median_first_response_seconds,,511,14.0,False
+AG02,Meadowgate Estates,2026-10-01,out_of_hours_share,311,517,0.6015,False
+AG02,Meadowgate Estates,2026-11-01,conversations_handled,260,260,260.0,True
+AG02,Meadowgate Estates,2026-11-01,enquiry_to_viewing,38,140,0.2714,True
+AG02,Meadowgate Estates,2026-11-01,handoff_rate,28,260,0.1077,True
+AG02,Meadowgate Estates,2026-11-01,leads_captured,129,171,0.7544,True
+AG02,Meadowgate Estates,2026-11-01,median_first_response_seconds,,257,13.0,True
+AG02,Meadowgate Estates,2026-11-01,out_of_hours_share,154,260,0.5923,True
+AG03,Northcote Residential,2026-08-01,conversations_handled,650,650,650.0,True
+AG03,Northcote Residential,2026-08-01,enquiry_to_viewing,110,413,0.2663,True
+AG03,Northcote Residential,2026-08-01,handoff_rate,69,650,0.1062,True
+AG03,Northcote Residential,2026-08-01,leads_captured,448,465,0.9634,True
+AG03,Northcote Residential,2026-08-01,median_first_response_seconds,,643,14.0,True
+AG03,Northcote Residential,2026-08-01,out_of_hours_share,359,650,0.5523,True
+AG03,Northcote Residential,2026-09-01,conversations_handled,741,741,741.0,False
+AG03,Northcote Residential,2026-09-01,enquiry_to_viewing,124,456,0.2719,False
+AG03,Northcote Residential,2026-09-01,handoff_rate,76,741,0.1026,False
+AG03,Northcote Residential,2026-09-01,leads_captured,487,514,0.9475,False
+AG03,Northcote Residential,2026-09-01,median_first_response_seconds,,733,14.0,False
+AG03,Northcote Residential,2026-09-01,out_of_hours_share,401,741,0.5412,False
+AG03,Northcote Residential,2026-10-01,conversations_handled,764,764,764.0,False
+AG03,Northcote Residential,2026-10-01,enquiry_to_viewing,130,466,0.279,False
+AG03,Northcote Residential,2026-10-01,handoff_rate,85,764,0.1113,False
+AG03,Northcote Residential,2026-10-01,leads_captured,509,527,0.9658,False
+AG03,Northcote Residential,2026-10-01,median_first_response_seconds,,753,12.0,False
+AG03,Northcote Residential,2026-10-01,out_of_hours_share,408,764,0.534,False
+AG03,Northcote Residential,2026-11-01,conversations_handled,361,361,361.0,True
+AG03,Northcote Residential,2026-11-01,enquiry_to_viewing,66,234,0.2821,True
+AG03,Northcote Residential,2026-11-01,handoff_rate,40,361,0.1108,True
+AG03,Northcote Residential,2026-11-01,leads_captured,246,253,0.9723,True
+AG03,Northcote Residential,2026-11-01,median_first_response_seconds,,355,14.0,True
+AG03,Northcote Residential,2026-11-01,out_of_hours_share,211,361,0.5845,True
+AG04,Kestrel Property Co,2026-08-01,conversations_handled,611,611,611.0,True
+AG04,Kestrel Property Co,2026-08-01,enquiry_to_viewing,112,370,0.3027,True
+AG04,Kestrel Property Co,2026-08-01,handoff_rate,62,611,0.1015,True
+AG04,Kestrel Property Co,2026-08-01,leads_captured,406,419,0.969,True
+AG04,Kestrel Property Co,2026-08-01,median_first_response_seconds,,606,14.0,True
+AG04,Kestrel Property Co,2026-08-01,out_of_hours_share,358,611,0.5859,True
+AG04,Kestrel Property Co,2026-09-01,conversations_handled,692,692,692.0,False
+AG04,Kestrel Property Co,2026-09-01,enquiry_to_viewing,117,414,0.2826,False
+AG04,Kestrel Property Co,2026-09-01,handoff_rate,77,692,0.1113,False
+AG04,Kestrel Property Co,2026-09-01,leads_captured,467,486,0.9609,False
+AG04,Kestrel Property Co,2026-09-01,median_first_response_seconds,,687,11.0,False
+AG04,Kestrel Property Co,2026-09-01,out_of_hours_share,399,692,0.5766,False
+AG04,Kestrel Property Co,2026-10-01,conversations_handled,710,710,710.0,False
+AG04,Kestrel Property Co,2026-10-01,enquiry_to_viewing,126,432,0.2917,False
+AG04,Kestrel Property Co,2026-10-01,handoff_rate,78,710,0.1099,False
+AG04,Kestrel Property Co,2026-10-01,leads_captured,485,502,0.9661,False
+AG04,Kestrel Property Co,2026-10-01,median_first_response_seconds,,705,13.0,False
+AG04,Kestrel Property Co,2026-10-01,out_of_hours_share,370,710,0.5211,False
+AG04,Kestrel Property Co,2026-11-01,conversations_handled,306,306,306.0,True
+AG04,Kestrel Property Co,2026-11-01,enquiry_to_viewing,40,164,0.2439,True
+AG04,Kestrel Property Co,2026-11-01,handoff_rate,39,306,0.1275,True
+AG04,Kestrel Property Co,2026-11-01,leads_captured,187,194,0.9639,True
+AG04,Kestrel Property Co,2026-11-01,median_first_response_seconds,,301,18.0,True
+AG04,Kestrel Property Co,2026-11-01,out_of_hours_share,183,306,0.598,True
+AG05,Bramley Hart,2026-08-01,conversations_handled,593,593,593.0,True
+AG05,Bramley Hart,2026-08-01,enquiry_to_viewing,87,340,0.2559,True
+AG05,Bramley Hart,2026-08-01,handoff_rate,72,593,0.1214,True
+AG05,Bramley Hart,2026-08-01,leads_captured,383,399,0.9599,True
+AG05,Bramley Hart,2026-08-01,median_first_response_seconds,,590,12.0,True
+AG05,Bramley Hart,2026-08-01,out_of_hours_share,333,593,0.5616,True
+AG05,Bramley Hart,2026-09-01,conversations_handled,612,612,612.0,False
+AG05,Bramley Hart,2026-09-01,enquiry_to_viewing,100,372,0.2688,False
+AG05,Bramley Hart,2026-09-01,handoff_rate,65,612,0.1062,False
+AG05,Bramley Hart,2026-09-01,leads_captured,418,431,0.9698,False
+AG05,Bramley Hart,2026-09-01,median_first_response_seconds,,605,15.0,False
+AG05,Bramley Hart,2026-09-01,out_of_hours_share,362,612,0.5915,False
+AG05,Bramley Hart,2026-10-01,conversations_handled,565,565,565.0,False
+AG05,Bramley Hart,2026-10-01,enquiry_to_viewing,93,331,0.281,False
+AG05,Bramley Hart,2026-10-01,handoff_rate,69,565,0.1221,False
+AG05,Bramley Hart,2026-10-01,leads_captured,379,392,0.9668,False
+AG05,Bramley Hart,2026-10-01,median_first_response_seconds,,556,14.5,False
+AG05,Bramley Hart,2026-10-01,out_of_hours_share,334,565,0.5912,False
+AG05,Bramley Hart,2026-11-01,conversations_handled,313,313,313.0,True
+AG05,Bramley Hart,2026-11-01,enquiry_to_viewing,52,199,0.2613,True
+AG05,Bramley Hart,2026-11-01,handoff_rate,40,313,0.1278,True
+AG05,Bramley Hart,2026-11-01,leads_captured,213,221,0.9638,True
+AG05,Bramley Hart,2026-11-01,median_first_response_seconds,,309,12.0,True
+AG05,Bramley Hart,2026-11-01,out_of_hours_share,177,313,0.5655,True
+AG06,Willowbank Homes,2026-08-01,conversations_handled,510,510,510.0,True
+AG06,Willowbank Homes,2026-08-01,enquiry_to_viewing,86,309,0.2783,True
+AG06,Willowbank Homes,2026-08-01,handoff_rate,69,510,0.1353,True
+AG06,Willowbank Homes,2026-08-01,leads_captured,335,351,0.9544,True
+AG06,Willowbank Homes,2026-08-01,median_first_response_seconds,,501,11.0,True
+AG06,Willowbank Homes,2026-08-01,out_of_hours_share,289,510,0.5667,True
+AG06,Willowbank Homes,2026-09-01,conversations_handled,562,562,562.0,False
+AG06,Willowbank Homes,2026-09-01,enquiry_to_viewing,79,326,0.2423,False
+AG06,Willowbank Homes,2026-09-01,handoff_rate,68,562,0.121,False
+AG06,Willowbank Homes,2026-09-01,leads_captured,363,377,0.9629,False
+AG06,Willowbank Homes,2026-09-01,median_first_response_seconds,,557,12.0,False
+AG06,Willowbank Homes,2026-09-01,out_of_hours_share,317,562,0.5641,False
+AG06,Willowbank Homes,2026-10-01,conversations_handled,554,554,554.0,False
+AG06,Willowbank Homes,2026-10-01,enquiry_to_viewing,93,338,0.2751,False
+AG06,Willowbank Homes,2026-10-01,handoff_rate,55,554,0.0993,False
+AG06,Willowbank Homes,2026-10-01,leads_captured,370,381,0.9711,False
+AG06,Willowbank Homes,2026-10-01,median_first_response_seconds,,541,12.0,False
+AG06,Willowbank Homes,2026-10-01,out_of_hours_share,312,554,0.5632,False
+AG06,Willowbank Homes,2026-11-01,conversations_handled,261,261,261.0,True
+AG06,Willowbank Homes,2026-11-01,enquiry_to_viewing,42,167,0.2515,True
+AG06,Willowbank Homes,2026-11-01,handoff_rate,34,261,0.1303,True
+AG06,Willowbank Homes,2026-11-01,leads_captured,177,182,0.9725,True
+AG06,Willowbank Homes,2026-11-01,median_first_response_seconds,,254,10.5,True
+AG06,Willowbank Homes,2026-11-01,out_of_hours_share,161,261,0.6169,True

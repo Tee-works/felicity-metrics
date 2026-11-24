@@ -1,8 +1,7 @@
 # felicity-metrics
 
 A small metrics layer for an AI front desk that answers calls, emails and messages for UK letting and estate
-agents: conversations, outcomes and CRM records in, checked numbers out. Built by Iyanujesu Akinyefa as a
-worked example for a Data Engineer role.
+agents: conversations, outcomes and CRM records in, checked numbers out.
 
 **All data here is synthetic.** Six invented agencies, 14 branches, 3 Aug to 15 Nov 2026. Phone numbers are
 from the Ofcom drama range and emails use example.com. No real LightWork data or figures are used or implied.
